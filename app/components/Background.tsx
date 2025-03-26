@@ -11,14 +11,6 @@ interface Star {
   speed: number;
 }
 
-interface ShootingStar {
-  x: number;
-  y: number;
-  size: number;
-  opacity: number;
-  speed: number;
-}
-
 export default function Background() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   
