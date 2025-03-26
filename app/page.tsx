@@ -12,7 +12,7 @@ export default function Home() {
         <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
           <div className="flex flex-row gap-4 items-center">
             <GreetingTypewriter />
-            <h1 className="text-[clamp(40px,8vw,90px)] font-bold">I'm Sohan.</h1>
+            <h1 className="text-[clamp(40px,8vw,90px)] font-bold">I&apos;m Sohan.</h1>
           </div>
           <p className="self-center text-lg text-gray-400">I build stuff (occasionally) and can Google effectively.</p>
         </main>

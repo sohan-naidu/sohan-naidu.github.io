@@ -25,8 +25,8 @@ export default function About() {
         animate="visible"
         variants={fadeInVariant}
       >
-        I'm a graduate student pursuing my Master of Science in Computer Science at the University of Illinois, Chicago, and hold a 4.0 GPA.  
-        I've completed my undergraduate degree at PES University, Bangalore.  
+        I&apos;m a graduate student pursuing my Master of Science in Computer Science at the University of Illinois, Chicago, and hold a 4.0 GPA.  
+        I&apos;ve completed my undergraduate degree at PES University, Bangalore.  
         I have 1.5 years of work experience as a Software Engineer at SenseHQ.
       </motion.p>
 
