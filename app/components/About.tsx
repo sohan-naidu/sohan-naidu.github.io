@@ -1,11 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-const fadeInVariant = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-};
+import { fadeInVariant } from "./Animations";
 
 export default function About() {
   return (
@@ -25,9 +21,8 @@ export default function About() {
         animate="visible"
         variants={fadeInVariant}
       >
-        I&apos;m a graduate student pursuing my Master of Science in Computer Science at the University of Illinois, Chicago, and hold a 4.0 GPA.  
-        I&apos;ve completed my undergraduate degree at PES University, Bangalore.  
-        I have 1.5 years of work experience as a Software Engineer at SenseHQ.
+        I&apos;m an incoming Software Engineer Intern at Uber Freight, currently pursuing my Master&apos;s in Computer Science at the University of Illinois Chicago with a 4.0 GPA.
+        I completed my Bachelor&apos;s in Computer Science at PES University, Bangalore, and bring 1.5 years of industry experience as a Software Engineer at SenseHQ.
       </motion.p>
 
       {/* Timeline */}
@@ -40,51 +35,15 @@ export default function About() {
           viewport={{ once: true }}
           variants={fadeInVariant}
         >
-        <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
-        <div className="flex items-center justify-between space-x-2 mb-1">
-            <div className="font-bold text-slate-900">Bachelor of Technology, PES University</div>
-            <time className="font-caveat font-medium text-indigo-500">Aug. 2019 - May 2023</time>
-        </div>
-        {/* <div className="text-slate-500">
-            <ul className="list-disc list-inside md:list-outside">
-            <li>Member at Techwarts</li>
-            </ul>
-        </div> */}
-        </div>
-
-        </motion.div>
-
-        <motion.div 
-          className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInVariant}
-        >
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900">Software Engineer Intern at SenseHQ</div>
-              <time className="font-caveat font-medium text-indigo-500">Jan. 2023 - June 2023</time>
+              <div className="font-bold text-slate-900">Incoming Software Engineer Intern at Uber Freight</div>
+              <time className="font-caveat font-medium text-indigo-500">June 2025 - Aug. 2025</time>
             </div>
-            {/* <div className="text-slate-500">Worked as a Software Engineer for 1.5 years at SenseHQ.</div> */}
           </div>
         </motion.div>
 
-        <motion.div 
-          className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInVariant}
-        >
-          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
-            <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900">Software Engineer at SenseHQ</div>
-              <time className="font-caveat font-medium text-indigo-500">July 2023 - July 2024</time>
-            </div>
-            {/* <div className="text-slate-500">Completed my undergraduate degree at PES University, Bangalore.</div> */}
-          </div>
-        </motion.div>
+
 
         <motion.div 
           className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
@@ -98,9 +57,59 @@ export default function About() {
               <div className="font-bold text-slate-900">Master of Science in Computer Science at University of Illinois, Chicago</div>
               <time className="font-caveat font-medium text-indigo-500">Aug. 2024 - Expected: May 2026</time>
             </div>
-            {/* <div className="text-slate-500">Completed my undergraduate degree at PES University, Bangalore.</div> */}
           </div>
         </motion.div>
+
+
+        <motion.div 
+          className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInVariant}
+        >
+          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+            <div className="flex items-center justify-between space-x-2 mb-1">
+              <div className="font-bold text-slate-900">Software Engineer at SenseHQ</div>
+              <time className="font-caveat font-medium text-indigo-500">July 2023 - July 2024</time>
+            </div>
+          </div>
+        </motion.div>
+
+
+                <motion.div 
+          className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInVariant}
+        >
+          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+            <div className="flex items-center justify-between space-x-2 mb-1">
+              <div className="font-bold text-slate-900">Software Engineer Intern at SenseHQ</div>
+              <time className="font-caveat font-medium text-indigo-500">Jan. 2023 - June 2023</time>
+            </div>
+          </div>
+        </motion.div>
+
+
+        <motion.div 
+          className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInVariant}
+        >
+        <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+        <div className="flex items-center justify-between space-x-2 mb-1">
+            <div className="font-bold text-slate-900">Bachelor of Technology, PES University</div>
+            <time className="font-caveat font-medium text-indigo-500">Aug. 2019 - May 2023</time>
+        </div>
+        </div>
+
+        </motion.div>
+
+
 
       </div>
     </section>
