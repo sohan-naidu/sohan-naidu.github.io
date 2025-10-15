@@ -19,7 +19,7 @@ export default function Publications(){
               </div>
               <div className="text-gray-400 mt-8">
                 <p className="font-bold">Published in IEEE: 2023 9th International Conference on Virtual Reality (ICVR)</p>
-                <a target="_blank" href="https://ieeexplore.ieee.org/document/10169803/citations">View full text here</a>
+                <a target="_blank" href="https://ieeexplore.ieee.org/document/10169803">View full text here</a>
               </div>
             </div>
             <div className="h-2 w-full bg-gradient-to-l via-yellow-500 group-hover:blur-xl blur-2xl m-auto rounded transition-all absolute bottom-0"></div>
