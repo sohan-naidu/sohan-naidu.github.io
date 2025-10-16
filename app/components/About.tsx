@@ -13,6 +13,7 @@ export default function About() {
       startDate: "Aug. 2019",
       endDate: "May 2023",
       logo: {
+        id: 1,
         src: "PES.jpg",
         alt: "PES University logo",
         width: 60
@@ -24,6 +25,7 @@ export default function About() {
       startDate: "Jan. 2023",
       endDate: "June 2023",
       logo: {
+        id: 2,
         src: "Sense.jpg",
         alt: "SenseHQ logo",
         width: 60
@@ -35,6 +37,7 @@ export default function About() {
       startDate: "July 2023",
       endDate: "June 2024",
       logo: {
+        id: 2,
         src: "Sense.jpg",
         alt: "SenseHQ logo",
         width: 60
@@ -46,6 +49,7 @@ export default function About() {
       startDate: "August 2024",
       endDate: "Expected: May 2026",
       logo: {
+        id: 3,
         src: "UIC.jpg",
         alt: "University of Illinois Chicago logo",
         width: 60
@@ -57,6 +61,7 @@ export default function About() {
       startDate: "June 2025",
       endDate: "August 2025",
       logo: {
+        id: 4,
         src: "UF.jpg",
         alt: "Uber Freight logo",
         width: 60
@@ -68,6 +73,7 @@ export default function About() {
       startDate: "Sept. 2025",
       endDate: "Present",
       logo: {
+        id: 5,
         src: "UICTS.jpg",
         alt: "UIC Technology Solutions Logo",
         width: 60
