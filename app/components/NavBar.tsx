@@ -13,7 +13,7 @@ function getNavBarElement(section: string) {
 }
 
 export default function NavBar() {
-  const sections = ["About", "Projects", "Publications", "Contact"];
+  const sections = ["About", "Projects", "Skills", "Publications", "Contact"];
 
   return (
     <nav className="w-full px-8 py-4 flex justify-end gap-8 text-lg font-[family-name:var(--font-geist-sans)]">
